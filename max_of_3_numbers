@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c;
+	a=14;
+	b=15;
+	c=4;
+	
+	if(a>b&&b>c&&c>a)
+	{
+		printf("a is maximum");
+		
+	}
+	else if(b>c)
+	{
+		printf("b is maximum");
+		
+	}
+	else
+	{
+		printf("c is maximum");
+		
+	}
+	 return 0;
+}
