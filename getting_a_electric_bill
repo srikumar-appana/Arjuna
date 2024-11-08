@@ -1,0 +1,38 @@
+#include<stdio.h>
+int main()
+{
+	int amount,units,total;
+	printf("enter the number of units=");
+	scanf("%d",&units);
+	total=units*amount;
+    printf("getting the total number=rs.%d",total);
+	
+	
+	if(units>=10)
+	{
+		amount= units*20;
+		printf("%d",amount);
+	
+	}
+	else if(units>=30)
+	{
+		amount= units*50;
+		
+		printf("%d",amount);
+		
+	}
+	else if(units>=50)
+	{
+		amount= units*80;
+		printf("%d",amount);
+		
+	}
+	else
+	{
+		
+		amount= units*100;
+		printf("%d",amount);
+	}
+	
+	return 0;
+}
